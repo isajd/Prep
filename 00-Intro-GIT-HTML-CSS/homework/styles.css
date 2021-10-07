@@ -1,0 +1,21 @@
+h1 {
+     color: violet;
+     } 
+
+img {
+     width: 400px;
+     }    
+
+#thirdDiv {
+     height: 750px;
+     width: 475px;
+     padding: 50px;
+     background-color: mediumaquamarine;
+     margin: 30px;
+     border: red 5px solid;
+     }
+
+#spanId {
+     font-size: 25px;
+     margin: 50px;
+     }
