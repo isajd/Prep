@@ -1,0 +1,83 @@
+/* ## Homework: JSI - Introducción a Javascript
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones
+  * Argumentos de funciones
+  * `return`
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+  * `for`
+  * `&&`, `||`, `!`
+
+- Variables: es el espacio donde dejo guardados 1 o varios datos de diferentes tipos, para usarlos mas 
+	tarde.
+	seria como una cajonera del placard, donde en caja cajon guardo diferentes tipos de prendas, por ej. 
+	varios pares de difs. tipos de medias, en otro varios calzonsillos de diferentes estilos, y asi 
+	sucesivamente, donde saco de cada cajon el par de medias que necesito usar y/o el calzoncillo que quiero 
+	ponerme.
+
+
+- Strings: es un tipo de dato, donde solo puedo almacenar caracteres, basicamente la mayoria de las teclas de
+	una maquina de escribir, o teclado de pc, o mas actualizado aun, el teclado tqctil de los celulares y tablets.
+	
+
+- Funciones (argumentos, `return`)
+	
+	-las funciones son los objetos que podemos llamamos o invocamos, cuando los necesitemos y nos permiten crear,
+	conectar y modificar todo tipo de variables, dentro de una solo funcion o de varias, y redifinirlas, recrearlas
+	o solamente usarlas	tal como estan, como fueron creadas, mismo agregarle, modificar o editarle cualquier tipo 
+	de valor y/o datos, que contenga en su interior.
+	las mismas estan compuestas por un nombre que nos adelanta que tipo de accion realizara, 
+	seria como el trailer de una pelicula. Luego siguen unos parentesis que contienen los argumentos, y llaves
+	que contienen las variables, explicadas en el primer punto. 
+
+		
+	-los argumentos son 1 o varios tipos de datos y/o nombres de variables que agrego adentro de los parentesis,
+	que seran parte de mi funcion. Aca estariamos en la introduccion de la pelicula, dsp vienen los corchetes 
+	con nudo y desenlace de la pelicula.
+
+	- por ultimo tenemos el return, el final de la pelicula, es x donde termina la funcion y termina su historia.
+	es la ejecucion final de nuestra querida pelicula, perdon... el final de nuestra funcion.
+	
+- Declaraciones `if` las declaraciones de este tipo son unos de los personajes principales que interactuan 
+	dentro de una funcion, y que utilizan los argumentos para darnos cierto tipo de informacion y/o datos.
+	Su caracteristica principal es que nos permiten decir qu si los argumentos de una funcion cumplen cierta 
+	condicion, hara o no tal cosas, tants veces como haga falta compararla, osea que podre tener tanto if, 
+	o condicionamientos como necesite para obtenre los adtos de los argumentos de mi funcion y/o de 
+	otras funciones.
+	Esta comparacion o condicion, generalmente utiliza elemetos que nos devuelven un valor verdadero o false,
+	 true or false, tecnicamente hablando, entre 2 o varios elementos, argumentos y/o funciones.
+
+- Valores booleanos (`true`, `false`)
+	Estan basados en la logica de Boole, que en pocas palabras permite que al usarla, obtener solo 2 tipos de 
+	resultado u opciones, y solo 2 sin excepcion, como activar o desactivar, 0 o 1 del codigo binario, 
+	verdadero o falso que es el q utilizamos en las declaraciones if, de java script. Otros ejs de este 
+	tipo de valore so loogcas booleianas, podrian ser par / impar, positivo / negativo, negro / blanco,
+	abierto / cerrado, etc.
+
+- for es una declaracion que nos permite realizar un bucle indefinidamente mientras se cumplan diferentes condiciones, es decir,
+	que se va a repetir cierta funcion, mientras siga cumpliendo una o varias condiciones.
+
+- && , || , ! estos son operadores, tanto logicos como de comparacion
+
+	- (&&) es el operador logico "AND" / "y", y nos permite comprobar varias condiciones en 
+ nuestras (expresiones), donde todas estas condiciones que indiquemos deben cumplirse, 
+ osea ser verdaderas (true) sin excepcion, sino la misma sera falsa.
+
+ 	- (||) es el operador logico "OR", "O", y la diferencia con el operador (&&), es que 
+ permite devolver una expresion como verdadera, aunque solamente se cunplan por lo menos 
+ una de sus condiciones, o sea, que nonhace falta que se cumplan todas susu condiciones,
+ como en &&, que si o si se debeian cumplir TODAS las condiciones, para que una expresion 
+ sea verdadera.
+
+ 	- (!) este operador tiene la particularidad de que siempre convierte una (expresion) 
+ en su opuesto. por ej !(1) seria = (-1). otro ejemplo seria: (1 === 1) seria verdadero, 
+ ya que 1 es igual a 1; pero ( 1 !== 1 ) seria falso; ya que ahi estaria comparando 
+ si 1 y 1, son diferentes entre si, en vez de iguales, y seria falso xq 1 es igual a 1.
+	
+    */
