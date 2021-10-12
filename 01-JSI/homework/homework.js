@@ -107,7 +107,7 @@ function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
-  // Tu código:
+  // Tu código:  **** EL ERROR SIEMPRE PRIMEROOOOOO!!!!!!!!!!!!!!!!!!!
   if (letra.length > 1) return "Dato incorrecto"
   if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" ) return "Es vocal"
 }
@@ -116,8 +116,8 @@ function obtenerMayor(x, y) {
   // "x" e "y" son números enteros.
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
-  // Tu código:
-  if ( x > y || x === y ) return x
+  // Tu código: 
+  if ( x > y) return x
   return y
 }
 
@@ -186,10 +186,10 @@ function doWhile(numero) {
   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
   // Tu código:
   var incremento = 0
-  var valor = 5
+  
   while ( incremento < 8 ) {
     incremento ++;
-    numero += valor;
+    numero = numero + 5;
   } 
   return numero
 }
