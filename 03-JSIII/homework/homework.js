@@ -74,7 +74,7 @@ function agregarMetodo() {
   //Ej: "Juan, 22 años"
   // Tu código:
   Persona.prototype.datos = function () {
-    return this.nombre + ", " + this.edad + " años"
+    return this.nombre + ", " + this.edad + " años" 
   }
 }
   
